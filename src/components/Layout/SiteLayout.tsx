@@ -1,0 +1,35 @@
+import Head from "next/head";
+import { Inter } from "next/font/google";
+import Navbar from "@/components/Navbar";
+import { ReactNode } from "react";
+import Footer from "@/components/Footer";
+
+import ScrollToTop from "../uiComponents/ScrollToTop";
+import { IPageName } from "@/types/indext";
+
+interface ISiteLayoutProps {
+  children: ReactNode;
+  pageName: IPageName;
+}
+
+export default function SiteLayout({ children, pageName }: ISiteLayoutProps) {
+  return (
+    <>
+      <Head>
+        <title>{`BSL Websites | ${pageName}`}</title>
+        <meta
+          name="description"
+          content="Broadspectrum is a proud African Information Communication Technology company that offers a unique range of innovative and advanced communication and digital "
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <main className="relative text-white bg-[#000A26] site_all_wrap">
+        <Navbar pageName={pageName} />
+        {children}
+        <ScrollToTop />
+        <Footer />
+      </main>
+    </>
+  );
+}
