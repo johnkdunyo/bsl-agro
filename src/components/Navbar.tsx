@@ -555,7 +555,7 @@ const Navbar = ({ pageName }: INavbar) => {
                   <Link href="/">
                     <h1>Publications</h1>
                   </Link>
-                  <Link href="/gallery">
+                  <Link href="/">
                     <h1>Gallery</h1>
                   </Link>
                 </div>
