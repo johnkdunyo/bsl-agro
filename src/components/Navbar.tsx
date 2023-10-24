@@ -57,8 +57,8 @@ const WebSubsidiaryNavs: ISubsidiaryNavs[] = [
     id: 5,
     title: "AgroSpectrum",
     href: process.env.NEXT_PUBLIC_AGRO_URL!,
-    imgSRC: "/assets/icons/agro-main.png",
-    imgSRC2: "/assets/icons/agro-main.png",
+    imgSRC: "/assets/icons/agro-main2.svg",
+    imgSRC2: "/assets/icons/agro-main2.svg",
   },
 ];
 
@@ -236,12 +236,12 @@ const Navbar = ({ pageName }: INavbar) => {
     <div className="  z-30 pt-2 fixed w-full  top-0     md:bg-gray-800/20 md:bg-opacity-50 md:backdrop-filter md:backdrop-blur-xl">
       <div className="container mx-auto px-3 ">
         {/* mobile */}
-        <div className="lg:hidden flex justify-between  py-2 items-start  ">
+        <div className="lg:hidden flex justify-between  py-2 items-start ">
           <div className="flex  gap-1  justify-between " ref={mobileMenuRef}>
             <div
               className={` ${
                 openSubsidiaryMenu ? "" : "bg-transparent"
-              }  rounded-[28px]  flex flex-col gap-0.5 w-52 `}
+              }  rounded-[28px]  flex flex-col gap-0.5 w-40 `}
             >
               <button
                 className="flex home-custom-navs   items-center justify-center    py-2 gap-1  "
@@ -249,7 +249,7 @@ const Navbar = ({ pageName }: INavbar) => {
               >
                 <img
                   src={currentNav.imgSRC}
-                  className=" w-[75%]   py-0.5  h-9  text-left"
+                  className=" w-[75%]   py-0.5  h-9  text-left "
                 />
                 {openSubsidiaryMenu ? (
                   <HiChevronUp size={24} />
