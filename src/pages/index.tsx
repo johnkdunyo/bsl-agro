@@ -4,6 +4,7 @@ import AreaOfExpertiseSection from "@/components/agroSpectrumPage/AreaOfExpertis
 import EnumerationProcess from "@/components/agroSpectrumPage/EnumerationProcess";
 import FAQsection from "@/components/agroSpectrumPage/FAQsection";
 import HeroSection from "@/components/agroSpectrumPage/HeroSection";
+import MapSection from "@/components/agroSpectrumPage/MapSection";
 import MissionVission from "@/components/agroSpectrumPage/MissionVision";
 import OurRolloutSection from "@/components/agroSpectrumPage/OurRolloutSection";
 import PartnerShipSection from "@/components/agroSpectrumPage/PartnerShipSection";
@@ -18,6 +19,7 @@ const Spectrumfibre = () => {
       <>
         <HeroSection />
         <AboutSection />
+        <MapSection />
         <SmartFarming />
         <EnumerationProcess />
         <FAQsection />

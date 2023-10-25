@@ -346,7 +346,7 @@ const Navbar = ({ pageName }: INavbar) => {
               />
 
               <CustomNavButton2
-                href="/#solutions"
+                href="/#where-we-are"
                 title="Where We Are"
                 active={pageName === "Product & Services"}
               />
@@ -518,23 +518,23 @@ const Navbar = ({ pageName }: INavbar) => {
                 </h1>
               </Link>
 
-              <Link href="/#solutions">
+              <Link href="/#where-we-are">
                 <h1
                   className="text-[#1D365A] font-medium text-3xl"
                   onClick={() => setOpenDesktopSiteMenu(false)}
                 >
-                  Product & Services
+                  Where We Are Now
                 </h1>
               </Link>
 
-              <Link href="/career">
+              {/* <Link href="/career">
                 <h1
                   className="text-[#1D365A] font-medium text-3xl"
                   onClick={() => setOpenDesktopSiteMenu(false)}
                 >
                   Careers
                 </h1>
-              </Link>
+              </Link> */}
 
               <div className="text-[#1D365A]  h-20">
                 <button
