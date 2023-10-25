@@ -29,16 +29,16 @@ const AboutSection = () => {
             ‘’Accelerating Agricultural Development Through Value Addition’’
           </p>
           <p>
-            The Agrospectrum platform has registered 1.6 million farmers and has
-            established a national database of farmers providing a digital
-            footprint of farmers for inclusion in agricultural interventions
-            like providing a linkage to Agric value chain actors, providing
-            information for policy planning, and the farmer gets access to some
-            digital services which is yet to be launched. The goal of this
-            module was to help manage the Ministry of Food and Agriculture
-            (MOFA) subsidy program. Agrospectrum successfully provided a digital
-            subsidy management platform for the national Agric input subsidy
-            program under the planting for food and jobs.
+            The Agrospectrum platform has registered over 1.6 million farmers
+            and has established a national database of farmers providing a
+            digital footprint of farmers for inclusion in agricultural
+            interventions like providing a linkage to Agric value chain actors,
+            providing information for policy planning, and the farmer gets
+            access to some digital services which is yet to be launched. The
+            goal of this module was to help manage the Ministry of Food and
+            Agriculture (MOFA) subsidy program. Agrospectrum successfully
+            provided a digital subsidy management platform for the national
+            Agric input subsidy program under the planting for food and jobs.
           </p>
         </div>
         {/* destop */}
@@ -54,14 +54,14 @@ const AboutSection = () => {
               ‘’Accelerating Agricultural Development Through Value Addition’’
             </p>
             <p>
-              The Agrospectrum platform has registered 1.6 million farmers and
-              has established a national database of farmers providing a digital
-              footprint of farmers for inclusion in agricultural interventions
-              like providing a linkage to Agric value chain actors, providing
-              information for policy planning, and the farmer gets access to
-              some digital services which is yet to be launched. The goal of
-              this module was to help manage the Ministry of Food and
-              Agriculture (MOFA) subsidy program. Agrospectrum successfully
+              The Agrospectrum platform has registered over 1.6 million farmers
+              and has established a national database of farmers providing a
+              digital footprint of farmers for inclusion in agricultural
+              interventions like providing a linkage to Agric value chain
+              actors, providing information for policy planning, and the farmer
+              gets access to some digital services which is yet to be launched.
+              The goal of this module was to help manage the Ministry of Food
+              and Agriculture (MOFA) subsidy program. Agrospectrum successfully
               provided a digital subsidy management platform for the national
               Agric input subsidy program under the planting for food and jobs.
             </p>

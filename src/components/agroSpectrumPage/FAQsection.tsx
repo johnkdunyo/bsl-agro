@@ -22,7 +22,7 @@ const AccordionData: AccordionProps[] = [
   {
     key: 2,
     title: "How many farmers have been registered now?",
-    data: ["1.6 million in the five northern regions."],
+    data: ["Over 1.6 million in the five northern regions."],
     isOpen: false,
   },
   {

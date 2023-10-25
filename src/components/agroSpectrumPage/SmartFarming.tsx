@@ -41,18 +41,18 @@ const SmartFarming = () => {
             <p className="text-base leading-8 text-[#000000]">
               The Strategic Business Unit offers Agric Marketplace services
               which include Farm 2 Factory, Farm 2 Retail, Farm 2 Table,
-              Planting for Food & Jobs, Subsidy programs, Insurance, Healthcare,
-              loans for farmers, Weather & Agronomy services, Agric Value Chain
-              actors, Cooperatives- Out-grower services. Through funding from
-              the African Development Bank (AfDB) and the Government of Ghana,
-              BSL has delivered an E-Agriculture Management Platform to the
-              Ministry of Food and Agriculture (MoFA) which included the digital
-              registration of 1.6Million farmers and the deployment of the
-              first-ever electronic subsidy redemption program in Ghana. The
-              farmer enumeration project is registering farmers across Ghana.
-              Enumerators are trained to record biometric data, the type of crop
-              cultivated, map farm location and farm size of farmers with
-              digital tablet provided by Agrospectrum.
+              Planting for Food &amp; Jobs, Subsidy programs, Insurance,
+              Healthcare, loans for farmers, Weather &amp; Agronomy services,
+              Agric Value Chain actors, Cooperatives- Out- grower services.
+              Through funding from the African Development Bank (AfDB) and the
+              Government of Ghana, BSL has delivered an E-Agriculture Management
+              Platform to the Ministry of Food and Agriculture (MoFA) which
+              included the digital registration of over 1.6Million farmers and
+              the deployment of the first-ever electronic subsidy redemption
+              program in Ghana. The farmer enumeration project is registering
+              farmers across Ghana. Enumerators are trained to record biometric
+              data, the type of crop cultivated, map farm location and farm size
+              of farmers with digital tablet provided by Agrospectrum.
             </p>
           </div>
         </div>
